@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/name"
+        app:layout_constraintBottom_toBottomOf="@+id/textViewQuestion"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.512" />
+
+    <TextView
+        android:id="@+id/textViewQuestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginBottom="24dp"
+        android:text="@string/question"
+        android:textColor="#ECA804"
+        android:textColorHighlight="#191515"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/radioGroupAnswer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintStart_toEndOf="@+id/imageViewBurger"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.482"
+        tools:ignore="TextContrastCheck" />
+
+    <ImageView
+        android:id="@+id/imageViewBurger"
+        android:layout_width="wrap_content"
+        android:layout_height="290dp"
+        android:contentDescription="@string/burgerPic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.058"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.495"
+        app:srcCompat="@drawable/jellyfishburger" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupAnswer"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageViewBurger"
+        app:layout_constraintTop_toBottomOf="@+id/textViewQuestion">
+
+        <RadioButton
+            android:id="@+id/radioButtonJalapino"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F8EE94"
+            android:onClick="onRadioClick"
+            android:text="@string/jalapeno"
+            android:textAlignment="center"
+            android:textColor="#A16103"
+            android:textColorLink="#FF9800"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radioButtonJackfruit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#EFE37A"
+            android:onClick="onRadioClick"
+            android:text="@string/jackfruit"
+            android:textAlignment="center"
+            android:textColor="#7E4C03"
+            android:textColorLink="#FF9800"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radioButtonJellyfish"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#EFE05F"
+            android:onClick="onRadioClick"
+            android:text="@string/jellyfish"
+            android:textAlignment="center"
+            android:textColor="#683F01"
+            android:textColorLink="#FF9800"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textViewQuizType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:text="@string/quiztype"
+        app:layout_constraintBottom_toBottomOf="@+id/textViewQuestion"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.75"
+        app:layout_constraintStart_toEndOf="@+id/textViewName"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/checkBoxHint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="300dp"
+        android:onClick="onCheckBoxClick"
+        android:text="@string/hint"
+        android:textColor="#B5ECA804"
+        android:textColorLink="#FF9800"
+        app:layout_constraintBottom_toTopOf="@+id/radioGroupAnswer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageViewBurger"
+        app:layout_constraintTop_toBottomOf="@+id/textViewQuizType"
+        tools:ignore="TextContrastCheck" />
+
+    <ImageView
+        android:id="@+id/imageViewHint"
+        android:layout_width="262dp"
+        android:layout_height="242dp"
+        android:contentDescription="@string/jam"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.034"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.497"
+        app:srcCompat="@drawable/jellyfishjam" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Dog Feeding App</string>
+    <string name="name">Dog Name</string>
+    <string name="date_choose">Choose Date</string>
+    <string name="date_today">Today</string>
+    <string name="time_choose">Choose Time</string>
+    <string name="time_now">Now</string>
+    <string name="save">Save</string>
+    <string name="settings">Settings</string>
+    <string name="history">History</string>
+    <string name="main">Return to Main</string>
+    <string name="howToUse">How To Use?</string>
+    <string name="desc1">1. Enter your Dog\'s name\n\n2. Choose Date</string>
+    <string name="desc2">2-a. Today: Save today\'s date\n2-b. Choose Date: Save your customized date</string>
+    <string name="desc3">\n3. Choose Time</string>
+    <string name="desc4">3-a. Now: Save current time\n3-b. Choose Time: Save your customized time</string>
+    <string name="my_name">Made by Seolan Jin</string>
+    <string name="removeLast">Remove \nlast \nHistory</string>
+    <string name="reset">Reset \nHistory</string>
+    <string name="id">ID</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+</resources>

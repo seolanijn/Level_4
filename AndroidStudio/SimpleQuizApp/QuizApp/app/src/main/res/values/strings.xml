@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Seolan_Jin_Quiz_App</string>
+    <string name="name">Seolan Jin</string>
+    <string name="question">What is this burger made of in Spongebob?</string>
+    <string name="burgerPic">spongebob making a burger</string>
+    <string name="jalapeno">Jalapeno</string>
+    <string name="jackfruit">Jackfruit</string>
+    <string name="jellyfish">Jellyfish</string>
+    <string name="jam">spongebob making a jellyfish jam</string>
+    <string name="quiztype">Seolan\'s Spongebob Quiz</string>
+    <string name="hint">Show Hint</string>
+</resources>
