@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "ZK08gJbC40FkY5kYEE5+2ZeJ59kNqxlutl4IsLOWvL8=",
+  "Source": "ExercisesAPI",
+  "BasePath": "_content/ExercisesAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ExercisesAPI\\wwwroot",
+      "Source": "ExercisesAPI",
+      "ContentRoot": "C:\\$$S2022,INFO3067_com\\ExercisesAPI\\ExercisesAPI\\wwwroot\\",
+      "BasePath": "_content/ExercisesAPI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\$$S2022,INFO3067_com\\ExercisesAPI\\ExercisesAPI\\wwwroot\\exercisesStoreRaw.txt",
+      "SourceId": "ExercisesAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\$$S2022,INFO3067_com\\ExercisesAPI\\ExercisesAPI\\wwwroot\\",
+      "BasePath": "_content/ExercisesAPI",
+      "RelativePath": "exercisesStoreRaw.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\exercisesStoreRaw.txt"
+    }
+  ]
+}
