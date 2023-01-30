@@ -1,0 +1,5 @@
+**/.idea/*
+.idea/discord.xml
+*.class
+.idea/misc.xml
+**/.vscode/*
