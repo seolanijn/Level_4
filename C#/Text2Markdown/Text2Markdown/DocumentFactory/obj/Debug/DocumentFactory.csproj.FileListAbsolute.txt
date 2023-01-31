@@ -1,0 +1,6 @@
+C:\$$S2022,INFO3137 ent\Project_1\INFO3137-Project1 - Starting Point\DocumentFactory\obj\Debug\DocumentFactory.csproj.AssemblyReference.cache
+C:\$$S2022,INFO3137 ent\Project_1\INFO3137-Project1 - Starting Point\DocumentFactory\obj\Debug\DocumentFactory.csproj.CoreCompileInputs.cache
+C:\$$S2022,INFO3137 ent\Project_1\INFO3137-Project1 - Starting Point\DocumentFactory\bin\Debug\DocumentFactory.dll
+C:\$$S2022,INFO3137 ent\Project_1\INFO3137-Project1 - Starting Point\DocumentFactory\bin\Debug\DocumentFactory.pdb
+C:\$$S2022,INFO3137 ent\Project_1\INFO3137-Project1 - Starting Point\DocumentFactory\obj\Debug\DocumentFactory.dll
+C:\$$S2022,INFO3137 ent\Project_1\INFO3137-Project1 - Starting Point\DocumentFactory\obj\Debug\DocumentFactory.pdb

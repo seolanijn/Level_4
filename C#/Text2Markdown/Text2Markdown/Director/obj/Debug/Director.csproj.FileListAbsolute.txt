@@ -1,0 +1,9 @@
+C:\$$S2022,INFO3137 ent\Project_1\INFO3137-Project1 - Starting Point\Director\obj\Debug\Director.csproj.AssemblyReference.cache
+C:\$$S2022,INFO3137 ent\Project_1\INFO3137-Project1 - Starting Point\Director\obj\Debug\Director.csproj.SuggestedBindingRedirects.cache
+C:\$$S2022,INFO3137 ent\Project_1\INFO3137-Project1 - Starting Point\Director\obj\Debug\Director.csproj.CoreCompileInputs.cache
+C:\$$S2022,INFO3137 ent\Project_1\INFO3137-Project1 - Starting Point\docs\Director.exe.config
+C:\$$S2022,INFO3137 ent\Project_1\INFO3137-Project1 - Starting Point\docs\Director.exe
+C:\$$S2022,INFO3137 ent\Project_1\INFO3137-Project1 - Starting Point\docs\Director.pdb
+C:\$$S2022,INFO3137 ent\Project_1\INFO3137-Project1 - Starting Point\Director\obj\Debug\Director.csproj.CopyComplete
+C:\$$S2022,INFO3137 ent\Project_1\INFO3137-Project1 - Starting Point\Director\obj\Debug\Director.exe
+C:\$$S2022,INFO3137 ent\Project_1\INFO3137-Project1 - Starting Point\Director\obj\Debug\Director.pdb
