@@ -1,0 +1,66 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema",
+  "title": "JSON Schema for PasswordManager",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "Description",
+    "UserId",
+    "Password"
+  ],
+  "properties": {
+    "Description": {
+      "Explanation": "A description of the online account",
+      "type": "string"
+    },
+    "UserId": {
+      "Explanation": "User's identifier for logging-in",
+      "type": "string"
+    },
+    "LoginUrl": {
+      "Explanation": "Web address of the account's log-in page",
+      "type": "string",
+      "format": "uri"
+    },
+    "AccountNum": {
+      "Explanation": "The account number for the user's online account",
+      "type": "string"
+    },
+    "Password": {
+      "Explanation": "Information related specifically to the password",
+      "type": "object",
+      "required": [
+        "Value",
+        "StrengthNum",
+        "StrengthText"
+      ],
+      "properties": {
+        "Value": {
+          "description": "User's password for logging-in",
+          "type": "string"
+        },
+        "StrengthNum": {
+          "description": "Indicates how secure the password is",
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "StrengthText": {
+          "description": "Indicates how secure the password is",
+          "type": "string",
+          "enum": [
+            "very weak",
+            "weak",
+            "good",
+            "strong",
+            "very strong"
+          ]
+        },
+        "LastReset": {
+          "description": "Date the password was last updated",
+          "type": "string"
+        }
+      }
+    }
+  }
+}

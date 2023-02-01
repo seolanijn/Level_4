@@ -1,0 +1,50 @@
+[
+  {
+    "Description": "Disney Plus",
+    "UserId": "dpplus",
+    "LoginUrl": "https://www.disneyplus.com/login",
+    "AccountNum": "1001",
+    "Password": {
+      "Value": "dis2y+",
+      "StrengthNum": 48,
+      "StrengthText": "good",
+      "LastReset": "2022-05-20"
+    }
+  },
+  {
+    "Description": "W3Schools Online Web Tutorials",
+    "UserId": "wwwschools3",
+    "LoginUrl": "https://profile.w3schools.com/log-in",
+    "AccountNum": "1002",
+    "Password": {
+      "Value": "w3sOwt333",
+      "StrengthNum": 84,
+      "StrengthText": "very strong",
+      "LastReset": "2022-05-21"
+    }
+  },
+  {
+    "Description": "Crave",
+    "UserId": "cravvve123",
+    "LoginUrl": "https://www.crave.ca/en",
+    "AccountNum": "1003",
+    "Password": {
+      "Value": "creative123",
+      "StrengthNum": 66,
+      "StrengthText": "strong",
+      "LastReset": "2022-05-22"
+    }
+  },
+  {
+    "Description": "Apple TV+",
+    "UserId": "appleTVP",
+    "LoginUrl": "https://tv.apple.com/ca",
+    "AccountNum": "1004",
+    "Password": {
+      "Value": "ApplePlusTV123",
+      "StrengthNum": 94,
+      "StrengthText": "very strong",
+      "LastReset": "2022-05-23"
+    }
+  }
+]
