@@ -1,0 +1,15 @@
+C:\$INFO-3138\Group33_GlobalEconomies\GlobalEconomies\bin\Debug\net6.0\GlobalEconomies.exe
+C:\$INFO-3138\Group33_GlobalEconomies\GlobalEconomies\bin\Debug\net6.0\GlobalEconomies.deps.json
+C:\$INFO-3138\Group33_GlobalEconomies\GlobalEconomies\bin\Debug\net6.0\GlobalEconomies.runtimeconfig.json
+C:\$INFO-3138\Group33_GlobalEconomies\GlobalEconomies\bin\Debug\net6.0\GlobalEconomies.dll
+C:\$INFO-3138\Group33_GlobalEconomies\GlobalEconomies\bin\Debug\net6.0\GlobalEconomies.pdb
+C:\$INFO-3138\Group33_GlobalEconomies\GlobalEconomies\obj\Debug\net6.0\GlobalEconomies.csproj.AssemblyReference.cache
+C:\$INFO-3138\Group33_GlobalEconomies\GlobalEconomies\obj\Debug\net6.0\GlobalEconomies.GeneratedMSBuildEditorConfig.editorconfig
+C:\$INFO-3138\Group33_GlobalEconomies\GlobalEconomies\obj\Debug\net6.0\GlobalEconomies.AssemblyInfoInputs.cache
+C:\$INFO-3138\Group33_GlobalEconomies\GlobalEconomies\obj\Debug\net6.0\GlobalEconomies.AssemblyInfo.cs
+C:\$INFO-3138\Group33_GlobalEconomies\GlobalEconomies\obj\Debug\net6.0\GlobalEconomies.csproj.CoreCompileInputs.cache
+C:\$INFO-3138\Group33_GlobalEconomies\GlobalEconomies\obj\Debug\net6.0\GlobalEconomies.dll
+C:\$INFO-3138\Group33_GlobalEconomies\GlobalEconomies\obj\Debug\net6.0\refint\GlobalEconomies.dll
+C:\$INFO-3138\Group33_GlobalEconomies\GlobalEconomies\obj\Debug\net6.0\GlobalEconomies.pdb
+C:\$INFO-3138\Group33_GlobalEconomies\GlobalEconomies\obj\Debug\net6.0\GlobalEconomies.genruntimeconfig.cache
+C:\$INFO-3138\Group33_GlobalEconomies\GlobalEconomies\obj\Debug\net6.0\ref\GlobalEconomies.dll
